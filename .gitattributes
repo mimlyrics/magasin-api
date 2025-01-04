@@ -1,0 +1,6 @@
+/mvnw text eol=lf
+*.cmd text eol=crlf
+*.jar filter=lfs diff=lfs merge=lfs -text
+*.filetype filter=lfs diff=lfs merge=lfs -text
+.mvn/wrapper/maven-wrapper.jar !text !filter !merge !diff
+target/magazina-0.0.1-SNAPSHOT.jar !text !filter !merge !diff
